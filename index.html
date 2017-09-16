@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EventStay</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Metrialize Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Link to Moment.js -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+  <!--parallax image-->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img id="parallax1" src="assets/images/concert2.jpg">
+    </div>
+  </div>
+  <!--page header-->
+  <div class="section white">
+    <div class="row container">
+      <div class="col s12">
+        <header class="center-align">EventStay</header>
+      </div>
+    </div>
+  </div>
+  <!--user search-->
+  <div class="container main">
+    <div class="row">
+      <div class="col s12">
+        <div class="input-field clearfix" id="userSearch">
+          <form id="search">
+            <!-- users search input -->
+            <input placeholder="Search for an artist, band, or an event" id="searchText" type="text" class="validate">
+            <label for="searchText"></label>
+            </br>
+            <!-- submit btn -->
+            <button type="submit" class="waves-effect waves-light btn z-depth-4" id="submit-search" onclick="Materialize.showStaggeredList('#eventResults')">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <a name="id3" />
+        <ul class="collapsible popout" data-collapsible="accordion" id="eventResults">
+          <!-- band name and image first list item (add ID)-->
+          <li class="card-panel clearfix">
+            <!-- band js populated image (add ID)-->
+            <img class="responsive-img col m4 s12" id="band-image" src="assets/images/concert2.jpg" alt="">
+            <!--band js populated name and link to website (add ID)-->
+            <div class="col m8 s12">
+              <center><span class="black-text" id="band-name">
+                Artist or Band
+              </span></center>
+              <center><span id="no-event"></span></center>
+            </div>
+          </li>
+          <li>
+            <!--hotel populated events go here (add ID) --> 
+            </div>
+            <div class="collapsible-body clearfix" id="Hoevents">
+          </li>
+          <!-- tag for scrollToAnchor js effect -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- container closing -->
+  <!-- footer with contributors info -->
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text" id="footName">EventStay</h5>
+          <p class="grey-text text-lighten-4">More From the Contributors on GitHub</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">GitHub</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/njulius89" target="_blank">Nanette Julius</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/kiddmit3" target="_blank">David Lac</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/michaelpacheco89" target="_blank">Michael Pacheco</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/thkropp1" target="_blank">Teresa Kropp</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Copyright EventStay
+      </div>
+    </div>
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <!-- local-storage javascript -->
+  <script type="text/javascript" src="assets/javascript/local-storage.js"></script>
+  <!-- layout Javascript-->
+  <script type="text/javascript" src="assets/javascript/layout.js"></script>
+  <!-- Event javascript -->
+  <script type="text/javascript" src="assets/javascript/events.js"></script>
+</body>
+
+</html>

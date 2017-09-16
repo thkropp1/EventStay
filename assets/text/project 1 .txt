@@ -1,0 +1,9 @@
+Proposal - Project 1
+
+Project Title: eventStay
+
+Team Members: Nanette Julius, Michael Pacheco, David Lac, Teresa Kropp
+
+Project Description: 
+
+For our project we will allow users to search events as well as find places to stay near the event location.  We will be using the Seat Geek API to find the events and Zilyo API to find a place to stay near the event location.  We will also integrate an events near you option for users looking for nearby events.  We will be using local storage to store user data to their browser that includes their most recent search results.  

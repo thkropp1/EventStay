@@ -1,0 +1,31 @@
+EventStay Presentation
+
+Presenters:
+Nanette Julius
+Teresa Kropp
+Michael Pacheco
+David Lac
+
+
+1. Overall application’s concept:
+
+EventStay is an app that allows the user to find a place to stay after searching for an event. The user can buy available tickets to the event, as well as see the lowest prices listed for the places to stay near the event.
+
+2. The motivation for its development:
+
+We want to simplify the process of searching for an event and finding places to stay near the event in one location, vs. having to search multiple sources. We want to make the app user friendly(easy to navigate).
+
+3 & 4. Our design process & the technologies we used (and briefly how they work):
+
+A. Nanette - Front-End HTML using Materialize
+B. Teresa - Data persistence for Search input using local-storage(saves the previous Search user input)
+C. Michael - Events: Using AJAX to pull data from SeatGeek API
+D. David - Hotels: Using AJAX to pull data from hotwire API
+
+5. A demonstration of its functionality
+
+<Demo the app>
+
+6. Directions for future development:
+
+Adding the transportation option(Uber, train/airline information), Spotify

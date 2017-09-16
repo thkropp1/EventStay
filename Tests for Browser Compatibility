@@ -1,0 +1,46 @@
+Browsers to test compatibility:
+
+1. Firefox
+2. Chrome
+3. MS Edge
+4. Internet Explorer
+5. Opera
+6. Safari
+
+NOTE: Please use console.log for debugging purposes, esp. making sure the correct data from the API is being returned to the app.
+
+----------------------------------------
+Loading the Web Page:
+
+1A. Type in the URL link:
+1B. Expected results: HTML page first loads correctly. Check the Footer section for the correct data and make sure it stays at the bottom of the screen(test in laptop, tablet, and cellphone modes).
+
+2A. Minimize the page.
+2B. The web page still shows the HTML page in correct form.
+
+----------------------------------------
+
+Search Result Tests:
+
+3A. Enter Search input and <Submit>.
+3B. Reload/refresh page. 
+3C. Expected results: The previous Search input should still be displayed in the field(Last Search input is stored in local storage).
+
+4A. Enter an invalid Search input and <Submit>.
+4B. Expected results: The Search results return nothing.
+
+5A. Enter a valid Search input and <Submit>.
+5B. Expected results: Each Search result associated with the user input should appear in its own box with the Event Name and Event Location, and Buy Tickets. The Event image should appear in the oval, and the Event Name is displayed.  The user is able to scroll up and down the page to view the Search results. Also check to make sure the previous search input results are not appended to the latest user input results.
+
+6A. Enter Search input and <Submit>.
+6B. Click on the Buy Tickets hyperlink.
+6C. Expected results: You should be taken to the SeatGeek web page associated with the Event Name and Event Location in order to buy tickets to the Event.
+
+7A. Enter Search input and <Submit>.
+7B. Click on the Event Name and Event Location hyperlink.
+7C. Expected results: You will see a list of hotels with their lowest prices, each in their own box.
+
+8A. Enter Search input and <Submit>.
+8B. Click on the Event Name and Event Location hyperlink.
+8C. Click on a hotel name's hotwire link. 
+8D. Expected results: The user will be taken to the hotwire webpage associated with the Event Name and Event Location.

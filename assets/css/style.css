@@ -1,0 +1,99 @@
+#userSearch {
+  padding: 0 20%;
+  bottom: 100px;
+}
+
+header {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 620%;
+  text-shadow: 4px 4px 4px #aaa;
+  position: relative;
+  bottom: 430px;
+}
+
+.hotel-font {
+  color: #1E90FF;
+}
+
+.card-panel {
+  @extend .green,
+  .lighten-4;
+}
+
+.parallax-container {
+  margin-top: 20px;
+}
+
+
+.clearfix {
+  overflow: auto;
+}
+
+
+/*styling for sticky footer*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+#footName {
+  font-family: 'Bungee Shade', cursive;
+}
+
+
+/*hotel styling*/
+
+#hotelinfo {
+  margin: 0px 10px;
+}
+
+#hotelPic {
+  width: 100%;
+}
+
+#hotelPrices {
+  width: 35%;
+}
+
+.collapsible-body,
+.collapsible-header {
+  color: black;
+}
+
+#band-name {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 760%;
+}
+
+#no-event {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: red;
+  font-size: 300%;
+}
+
+@media only screen and (max-width: 700px) {
+
+
+  header {
+    font-size: 500%;
+    padding: 0 10%;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  header {
+    font-size: 400%
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  header {
+    font-size: 350%;
+  }
+}

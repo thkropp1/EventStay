@@ -1,0 +1,15 @@
+EventStay Short Tests
+
+1. Muse <Submit>
+
+2. Blank/No Input <Submit>
+
+3. Muse <Submit>
+
+4. Justin Bieber <Submit>
+
+5. Blank/No Input <Submit>
+
+6. Muse <Submit>
+
+7. Festival <Submit>

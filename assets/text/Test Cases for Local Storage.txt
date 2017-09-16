@@ -1,0 +1,18 @@
+Test cases for local storage:
+
+1. A. Enter new event or music artist and click on <Submit>
+   B. Refresh page
+   C. Expected Result: Last search text should still appear in the input text field.
+
+2. A. Press the Delete key on the previous last search input displayed in the search text field. 
+   B. Refresh page
+   C. Expected Result: The Search input is cleared from the field before refreshing the page. 
+      The last search input should appear in the input text field after refreshing the page.
+
+3. A. Previous search input appears on the search text field.
+   B. Press the Delete key, and enter a new event or music artist and click on <Submit>
+   C. Refresh page
+   D. Expected Result: The Search input is cleared from the field before refreshing the page. 
+      New event or music artist should be displayed in the input field after refreshing the page.
+
+
