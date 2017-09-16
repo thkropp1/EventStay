@@ -9,11 +9,11 @@ David Lac
 
 Overall application’s concept:
 
-EventStay is an app that allows the user to find a place to stay after searching for an event. #### The user can buy available tickets to the event, as well as see the lowest prices listed for the #### places to stay near the event.
+EventStay is an app that allows the user to find a place to stay after searching for an event. The user can buy available tickets to the event, as well as see the lowest prices listed for the places to stay near the event.
 
 The motivation for its development:
 
-We want to simplify the process of searching for an event and finding places to stay near the #### event in one location, vs. having to search multiple sources. We want to make the app user friendly(easy to navigate).
+We want to simplify the process of searching for an event and finding places to stay near the event in one location, vs. having to search multiple sources. We want to make the app user friendly(easy to navigate).
 
 The technologies that we used:
 
